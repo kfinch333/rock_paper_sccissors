@@ -17,10 +17,7 @@ class Choice(Enum):
 # user input function
 def user_choice():
     choice = 1
-    print(Choice.Rock.name)
-    print(Choice.Paper.value)
-    print(Choice.Scissors)
-    
+
     while choice == 1:
         user = input('Rock (0), Paper (1), or Scissors (2): ')
         if user == str(Choice.Rock.value):
